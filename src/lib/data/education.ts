@@ -3,28 +3,19 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
-		description: '',
-		location: 'Tunisia',
+		degree: 'Bachelor degree in Production Engineering',
+		description: 'Relevant coursework: Industrial Engineering, Business Analytics (ANNOVA, Machine Learning Algorithms),
+Industry 4.0 and Internet of Things (IoT) (Lean Production System, Smart Factories), Computer Programming
+and Problem Solving (C++), Electrical and Electronics Engineering, CAD CAM CIM, Mechatronics and
+Automation, Probability and Statistics (t-tests, chi-square tests).',
+		location: 'Mumbai, India',
 		logo: Assets.Unknown,
-		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		name: 'Yashraj Pardeshi',
+		organization: 'VJTI, Mumbai',
+		period: { from: new Date(2021, 12), to: new Date(2025, 06) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
 		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
-	},
-	{
-		degree: 'PhD of Computer Science',
-		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
-		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
-		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
 	}
 ];
 
